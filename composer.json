@@ -1,13 +1,15 @@
 {
     "name": "submtd/http-request",
+    "description": "Base class for making http requests using HTTPlug",
     "authors": [
         {
             "name": "Steve Harmeyer",
-            "email": "harmeyersteve@gmail.com"
+            "email": "sharmeyer@dbd.net"
         }
     ],
     "require": {
         "psr/http-message": "^1.0",
+        "php-http/client-common": "^1.0",
         "php-http/client-implementation": "^1.0",
         "php-http/httplug": "^1.0",
         "php-http/message-factory": "^1.0",
