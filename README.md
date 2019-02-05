@@ -6,5 +6,5 @@ This package requires an HTTPlug implementation in order to work properly. Befor
 
 ```
 composer require php-http/curl-client guzzlehttp/psr7 php-http/message
-composer require dbdnet/http-request
+composer require submtd/http-request
 ```
