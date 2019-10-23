@@ -13,37 +13,37 @@ class HttpRequest
     /**
      * HttpClient
      */
-    protected $client;
+    public $client;
 
     /**
      * method
      */
-    protected $method = 'GET';
+    public $method = 'GET';
 
     /**
      * url
      */
-    protected $url;
+    public $url;
 
     /**
      * headers array
      */
-    protected $headers = [];
+    public $headers = [];
 
     /**
      * body
      */
-    protected $body = [];
+    public $body = [];
 
     /**
      * status code
      */
-    protected $statusCode;
+    public $statusCode;
 
     /**
      * request response
      */
-    protected $response;
+    public $response;
 
     /**
      * class constructor
